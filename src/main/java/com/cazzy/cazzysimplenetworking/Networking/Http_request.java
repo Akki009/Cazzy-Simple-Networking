@@ -80,7 +80,7 @@ public class Http_request {
                     return ServerResponseWrapper.sendResponse(sb.toString(),true);
 
                 } catch (Exception e) {
-                    return ServerResponseWrapper.sendResponse(e.getLocalizedMessage(),true);
+                    return ServerResponseWrapper.sendResponse("ERROR ::" + e.getLocalizedMessage(),true);
 
                 } finally {
                     urlConnection.disconnect();
