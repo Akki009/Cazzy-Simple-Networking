@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.cazzy.cazzysimplenetworking.test;
+package com.khandani.silverglobesolutions.cazzysimple_networking.test;
 
 public final class R {
   public static final class anim {
@@ -2490,8 +2490,8 @@ public final class R {
     public static final int Base_Animation_AppCompat_Dialog=0x7f0b0007;
     public static final int Base_Animation_AppCompat_DropDownUp=0x7f0b0008;
     public static final int Base_Animation_AppCompat_Tooltip=0x7f0b0009;
-    public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0b000b;
     public static final int Base_DialogWindowTitle_AppCompat=0x7f0b000a;
+    public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0b000b;
     public static final int Base_TextAppearance_AppCompat=0x7f0b000c;
     public static final int Base_TextAppearance_AppCompat_Body1=0x7f0b000d;
     public static final int Base_TextAppearance_AppCompat_Body2=0x7f0b000e;
@@ -2540,6 +2540,20 @@ public final class R {
     public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b0039;
     public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b003a;
     public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b003b;
+    public static final int Base_Theme_AppCompat=0x7f0b003c;
+    public static final int Base_Theme_AppCompat_CompactMenu=0x7f0b003d;
+    public static final int Base_Theme_AppCompat_Dialog=0x7f0b003e;
+    public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0b003f;
+    public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0b0040;
+    public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0b0041;
+    public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0b0042;
+    public static final int Base_Theme_AppCompat_Light=0x7f0b0043;
+    public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0b0044;
+    public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0b0045;
+    public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0b0046;
+    public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0b0047;
+    public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b0048;
+    public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0b0049;
     public static final int Base_ThemeOverlay_AppCompat=0x7f0b004a;
     public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0b004b;
     public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0b004c;
@@ -2547,30 +2561,16 @@ public final class R {
     public static final int Base_ThemeOverlay_AppCompat_Dialog=0x7f0b004e;
     public static final int Base_ThemeOverlay_AppCompat_Dialog_Alert=0x7f0b004f;
     public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0b0050;
-    public static final int Base_Theme_AppCompat=0x7f0b003c;
-    public static final int Base_Theme_AppCompat_CompactMenu=0x7f0b003d;
-    public static final int Base_Theme_AppCompat_Dialog=0x7f0b003e;
-    public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0b0042;
-    public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0b003f;
-    public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0b0040;
-    public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0b0041;
-    public static final int Base_Theme_AppCompat_Light=0x7f0b0043;
-    public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0b0044;
-    public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0b0045;
-    public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0b0049;
-    public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0b0046;
-    public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0b0047;
-    public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b0048;
-    public static final int Base_V11_ThemeOverlay_AppCompat_Dialog=0x7f0b0053;
     public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0b0051;
     public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0b0052;
+    public static final int Base_V11_ThemeOverlay_AppCompat_Dialog=0x7f0b0053;
     public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0b0054;
     public static final int Base_V12_Widget_AppCompat_EditText=0x7f0b0055;
-    public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f0b005a;
     public static final int Base_V21_Theme_AppCompat=0x7f0b0056;
     public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0b0057;
     public static final int Base_V21_Theme_AppCompat_Light=0x7f0b0058;
     public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0b0059;
+    public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f0b005a;
     public static final int Base_V22_Theme_AppCompat=0x7f0b005b;
     public static final int Base_V22_Theme_AppCompat_Light=0x7f0b005c;
     public static final int Base_V23_Theme_AppCompat=0x7f0b005d;
@@ -2578,11 +2578,11 @@ public final class R {
     public static final int Base_V26_Theme_AppCompat=0x7f0b005f;
     public static final int Base_V26_Theme_AppCompat_Light=0x7f0b0060;
     public static final int Base_V26_Widget_AppCompat_Toolbar=0x7f0b0061;
-    public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0b0066;
     public static final int Base_V7_Theme_AppCompat=0x7f0b0062;
     public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0b0063;
     public static final int Base_V7_Theme_AppCompat_Light=0x7f0b0064;
     public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0b0065;
+    public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0b0066;
     public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0b0067;
     public static final int Base_V7_Widget_AppCompat_EditText=0x7f0b0068;
     public static final int Base_V7_Widget_AppCompat_Toolbar=0x7f0b0069;
@@ -2598,13 +2598,13 @@ public final class R {
     public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0b0073;
     public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0b0074;
     public static final int Base_Widget_AppCompat_Button=0x7f0b0075;
-    public static final int Base_Widget_AppCompat_ButtonBar=0x7f0b007b;
-    public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b007c;
     public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0b0076;
     public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0b0077;
     public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b0078;
     public static final int Base_Widget_AppCompat_Button_Colored=0x7f0b0079;
     public static final int Base_Widget_AppCompat_Button_Small=0x7f0b007a;
+    public static final int Base_Widget_AppCompat_ButtonBar=0x7f0b007b;
+    public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b007c;
     public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0b007d;
     public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0b007e;
     public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0b007f;
@@ -2663,12 +2663,12 @@ public final class R {
     public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0b00b4;
     public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0b00b5;
     public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0b00b6;
-    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0b00bc;
     public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0b00b7;
     public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0b00b8;
     public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0b00b9;
     public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0b00ba;
     public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0b00bb;
+    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0b00bc;
     public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0b00bd;
     public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0b00be;
     public static final int TextAppearance_AppCompat=0x7f0b00bf;
@@ -2742,6 +2742,27 @@ public final class R {
     public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b0103;
     public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b0104;
     public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b0105;
+    public static final int Theme_AppCompat=0x7f0b0106;
+    public static final int Theme_AppCompat_CompactMenu=0x7f0b0107;
+    public static final int Theme_AppCompat_DayNight=0x7f0b0108;
+    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0b0109;
+    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0b010a;
+    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0b010b;
+    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0b010c;
+    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0b010d;
+    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0b010e;
+    public static final int Theme_AppCompat_Dialog=0x7f0b010f;
+    public static final int Theme_AppCompat_Dialog_Alert=0x7f0b0110;
+    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0b0111;
+    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0b0112;
+    public static final int Theme_AppCompat_Light=0x7f0b0113;
+    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0b0114;
+    public static final int Theme_AppCompat_Light_Dialog=0x7f0b0115;
+    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0b0116;
+    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b0117;
+    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0b0118;
+    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0b0119;
+    public static final int Theme_AppCompat_NoActionBar=0x7f0b011a;
     public static final int ThemeOverlay_AppCompat=0x7f0b011b;
     public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0b011c;
     public static final int ThemeOverlay_AppCompat_Dark=0x7f0b011d;
@@ -2749,27 +2770,6 @@ public final class R {
     public static final int ThemeOverlay_AppCompat_Dialog=0x7f0b011f;
     public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0b0120;
     public static final int ThemeOverlay_AppCompat_Light=0x7f0b0121;
-    public static final int Theme_AppCompat=0x7f0b0106;
-    public static final int Theme_AppCompat_CompactMenu=0x7f0b0107;
-    public static final int Theme_AppCompat_DayNight=0x7f0b0108;
-    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0b0109;
-    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0b010a;
-    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0b010d;
-    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0b010b;
-    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0b010c;
-    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0b010e;
-    public static final int Theme_AppCompat_Dialog=0x7f0b010f;
-    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0b0112;
-    public static final int Theme_AppCompat_Dialog_Alert=0x7f0b0110;
-    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0b0111;
-    public static final int Theme_AppCompat_Light=0x7f0b0113;
-    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0b0114;
-    public static final int Theme_AppCompat_Light_Dialog=0x7f0b0115;
-    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0b0118;
-    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0b0116;
-    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b0117;
-    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0b0119;
-    public static final int Theme_AppCompat_NoActionBar=0x7f0b011a;
     public static final int Widget_AppCompat_ActionBar=0x7f0b0122;
     public static final int Widget_AppCompat_ActionBar_Solid=0x7f0b0123;
     public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0b0124;
@@ -2782,13 +2782,13 @@ public final class R {
     public static final int Widget_AppCompat_ActivityChooserView=0x7f0b012b;
     public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0b012c;
     public static final int Widget_AppCompat_Button=0x7f0b012d;
-    public static final int Widget_AppCompat_ButtonBar=0x7f0b0133;
-    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b0134;
     public static final int Widget_AppCompat_Button_Borderless=0x7f0b012e;
     public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0b012f;
     public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b0130;
     public static final int Widget_AppCompat_Button_Colored=0x7f0b0131;
     public static final int Widget_AppCompat_Button_Small=0x7f0b0132;
+    public static final int Widget_AppCompat_ButtonBar=0x7f0b0133;
+    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b0134;
     public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0b0135;
     public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0b0136;
     public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0b0137;
@@ -2853,35 +2853,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.cazzy.cazzysimplenetworking.test:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.cazzy.cazzysimplenetworking.test:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.cazzy.cazzysimplenetworking.test:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.cazzy.cazzysimplenetworking.test:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.cazzy.cazzysimplenetworking.test:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.cazzy.cazzysimplenetworking.test:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.cazzy.cazzysimplenetworking.test:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.cazzy.cazzysimplenetworking.test:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.cazzy.cazzysimplenetworking.test:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.cazzy.cazzysimplenetworking.test:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.cazzy.cazzysimplenetworking.test:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.cazzy.cazzysimplenetworking.test:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.cazzy.cazzysimplenetworking.test:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.cazzy.cazzysimplenetworking.test:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.cazzy.cazzysimplenetworking.test:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.cazzy.cazzysimplenetworking.test:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.cazzy.cazzysimplenetworking.test:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.cazzy.cazzysimplenetworking.test:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.cazzy.cazzysimplenetworking.test:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.cazzy.cazzysimplenetworking.test:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.cazzy.cazzysimplenetworking.test:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.cazzy.cazzysimplenetworking.test:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.cazzy.cazzysimplenetworking.test:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.cazzy.cazzysimplenetworking.test:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.cazzy.cazzysimplenetworking.test:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.cazzy.cazzysimplenetworking.test:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.cazzy.cazzysimplenetworking.test:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.cazzy.cazzysimplenetworking.test:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.cazzy.cazzysimplenetworking.test:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.khandani.silverglobesolutions.cazzysimple_networking.test:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.khandani.silverglobesolutions.cazzysimple_networking.test:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.khandani.silverglobesolutions.cazzysimple_networking.test:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.khandani.silverglobesolutions.cazzysimple_networking.test:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.khandani.silverglobesolutions.cazzysimple_networking.test:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.khandani.silverglobesolutions.cazzysimple_networking.test:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.khandani.silverglobesolutions.cazzysimple_networking.test:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.khandani.silverglobesolutions.cazzysimple_networking.test:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.khandani.silverglobesolutions.cazzysimple_networking.test:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.khandani.silverglobesolutions.cazzysimple_networking.test:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.khandani.silverglobesolutions.cazzysimple_networking.test:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.khandani.silverglobesolutions.cazzysimple_networking.test:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.khandani.silverglobesolutions.cazzysimple_networking.test:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.khandani.silverglobesolutions.cazzysimple_networking.test:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.khandani.silverglobesolutions.cazzysimple_networking.test:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.khandani.silverglobesolutions.cazzysimple_networking.test:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.khandani.silverglobesolutions.cazzysimple_networking.test:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.khandani.silverglobesolutions.cazzysimple_networking.test:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.khandani.silverglobesolutions.cazzysimple_networking.test:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -2923,6 +2923,380 @@ public final class R {
         0x7f0200aa, 0x7f0200c4, 0x7f0200c7, 0x7f0200e2, 
         0x7f0200eb
       };
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#background}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:background
+     */
+    public static final int ActionBar_background=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#backgroundSplit}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:backgroundSplit
+     */
+    public static final int ActionBar_backgroundSplit=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#backgroundStacked}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:backgroundStacked
+     */
+    public static final int ActionBar_backgroundStacked=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#contentInsetEnd}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetEnd
+     */
+    public static final int ActionBar_contentInsetEnd=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#contentInsetEndWithActions}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetEndWithActions
+     */
+    public static final int ActionBar_contentInsetEndWithActions=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#contentInsetLeft}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetLeft
+     */
+    public static final int ActionBar_contentInsetLeft=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#contentInsetRight}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetRight
+     */
+    public static final int ActionBar_contentInsetRight=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#contentInsetStart}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetStart
+     */
+    public static final int ActionBar_contentInsetStart=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#contentInsetStartWithNavigation}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetStartWithNavigation
+     */
+    public static final int ActionBar_contentInsetStartWithNavigation=8;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#customNavigationLayout}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:customNavigationLayout
+     */
+    public static final int ActionBar_customNavigationLayout=9;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#displayOptions}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>disableHome</td><td>20</td><td></td></tr>
+     * <tr><td>homeAsUp</td><td>4</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>showCustom</td><td>10</td><td></td></tr>
+     * <tr><td>showHome</td><td>2</td><td></td></tr>
+     * <tr><td>showTitle</td><td>8</td><td></td></tr>
+     * <tr><td>useLogo</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:displayOptions
+     */
+    public static final int ActionBar_displayOptions=10;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#divider}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:divider
+     */
+    public static final int ActionBar_divider=11;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#elevation}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:elevation
+     */
+    public static final int ActionBar_elevation=12;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#height}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:height
+     */
+    public static final int ActionBar_height=13;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#hideOnContentScroll}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:hideOnContentScroll
+     */
+    public static final int ActionBar_hideOnContentScroll=14;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#homeAsUpIndicator}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:homeAsUpIndicator
+     */
+    public static final int ActionBar_homeAsUpIndicator=15;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#homeLayout}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:homeLayout
+     */
+    public static final int ActionBar_homeLayout=16;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#icon}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:icon
+     */
+    public static final int ActionBar_icon=17;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#indeterminateProgressStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:indeterminateProgressStyle
+     */
+    public static final int ActionBar_indeterminateProgressStyle=18;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#itemPadding}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:itemPadding
+     */
+    public static final int ActionBar_itemPadding=19;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#logo}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:logo
+     */
+    public static final int ActionBar_logo=20;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#navigationMode}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>listMode</td><td>1</td><td></td></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * <tr><td>tabMode</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:navigationMode
+     */
+    public static final int ActionBar_navigationMode=21;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#popupTheme}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:popupTheme
+     */
+    public static final int ActionBar_popupTheme=22;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#progressBarPadding}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:progressBarPadding
+     */
+    public static final int ActionBar_progressBarPadding=23;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#progressBarStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:progressBarStyle
+     */
+    public static final int ActionBar_progressBarStyle=24;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#subtitle}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:subtitle
+     */
+    public static final int ActionBar_subtitle=25;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#subtitleTextStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:subtitleTextStyle
+     */
+    public static final int ActionBar_subtitleTextStyle=26;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#title}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:title
+     */
+    public static final int ActionBar_title=27;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#titleTextStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:titleTextStyle
+     */
+    public static final int ActionBar_titleTextStyle=28;
     /**
      * Attributes that can be used with a ActionBarLayout.
      * <p>Includes the following attributes:</p>
@@ -2967,380 +3341,6 @@ public final class R {
      */
     public static final int ActionBarLayout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#background}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:background
-     */
-    public static final int ActionBar_background=0;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#backgroundSplit}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:backgroundSplit
-     */
-    public static final int ActionBar_backgroundSplit=1;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#backgroundStacked}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:backgroundStacked
-     */
-    public static final int ActionBar_backgroundStacked=2;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#contentInsetEnd}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:contentInsetEnd
-     */
-    public static final int ActionBar_contentInsetEnd=3;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#contentInsetEndWithActions}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:contentInsetEndWithActions
-     */
-    public static final int ActionBar_contentInsetEndWithActions=4;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#contentInsetLeft}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:contentInsetLeft
-     */
-    public static final int ActionBar_contentInsetLeft=5;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#contentInsetRight}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:contentInsetRight
-     */
-    public static final int ActionBar_contentInsetRight=6;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#contentInsetStart}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:contentInsetStart
-     */
-    public static final int ActionBar_contentInsetStart=7;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#contentInsetStartWithNavigation}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:contentInsetStartWithNavigation
-     */
-    public static final int ActionBar_contentInsetStartWithNavigation=8;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#customNavigationLayout}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:customNavigationLayout
-     */
-    public static final int ActionBar_customNavigationLayout=9;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#displayOptions}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>disableHome</td><td>20</td><td></td></tr>
-     * <tr><td>homeAsUp</td><td>4</td><td></td></tr>
-     * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>showCustom</td><td>10</td><td></td></tr>
-     * <tr><td>showHome</td><td>2</td><td></td></tr>
-     * <tr><td>showTitle</td><td>8</td><td></td></tr>
-     * <tr><td>useLogo</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:displayOptions
-     */
-    public static final int ActionBar_displayOptions=10;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#divider}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:divider
-     */
-    public static final int ActionBar_divider=11;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#elevation}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:elevation
-     */
-    public static final int ActionBar_elevation=12;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#height}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:height
-     */
-    public static final int ActionBar_height=13;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#hideOnContentScroll}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:hideOnContentScroll
-     */
-    public static final int ActionBar_hideOnContentScroll=14;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#homeAsUpIndicator}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:homeAsUpIndicator
-     */
-    public static final int ActionBar_homeAsUpIndicator=15;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#homeLayout}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:homeLayout
-     */
-    public static final int ActionBar_homeLayout=16;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#icon}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:icon
-     */
-    public static final int ActionBar_icon=17;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#indeterminateProgressStyle}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:indeterminateProgressStyle
-     */
-    public static final int ActionBar_indeterminateProgressStyle=18;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#itemPadding}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:itemPadding
-     */
-    public static final int ActionBar_itemPadding=19;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#logo}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:logo
-     */
-    public static final int ActionBar_logo=20;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#navigationMode}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>listMode</td><td>1</td><td></td></tr>
-     * <tr><td>normal</td><td>0</td><td></td></tr>
-     * <tr><td>tabMode</td><td>2</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:navigationMode
-     */
-    public static final int ActionBar_navigationMode=21;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#popupTheme}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:popupTheme
-     */
-    public static final int ActionBar_popupTheme=22;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#progressBarPadding}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:progressBarPadding
-     */
-    public static final int ActionBar_progressBarPadding=23;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#progressBarStyle}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:progressBarStyle
-     */
-    public static final int ActionBar_progressBarStyle=24;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#subtitle}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:subtitle
-     */
-    public static final int ActionBar_subtitle=25;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#subtitleTextStyle}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:subtitleTextStyle
-     */
-    public static final int ActionBar_subtitleTextStyle=26;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#title}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:title
-     */
-    public static final int ActionBar_title=27;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#titleTextStyle}
-     * attribute's value can be found in the {@link #ActionBar} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:titleTextStyle
-     */
-    public static final int ActionBar_titleTextStyle=28;
-    /**
      * Attributes that can be used with a ActionMenuItemView.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -3376,12 +3376,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.cazzy.cazzysimplenetworking.test:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.cazzy.cazzysimplenetworking.test:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.cazzy.cazzysimplenetworking.test:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.cazzy.cazzysimplenetworking.test:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.cazzy.cazzysimplenetworking.test:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.cazzy.cazzysimplenetworking.test:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.khandani.silverglobesolutions.cazzysimple_networking.test:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.khandani.silverglobesolutions.cazzysimple_networking.test:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.khandani.silverglobesolutions.cazzysimple_networking.test:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.khandani.silverglobesolutions.cazzysimple_networking.test:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -3395,7 +3395,7 @@ public final class R {
         0x7f0200c7, 0x7f0200eb
       };
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3403,11 +3403,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:background
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3418,11 +3418,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:backgroundSplit
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3430,11 +3430,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:closeItemLayout
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3443,11 +3443,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:height
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3455,11 +3455,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:subtitleTextStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3467,7 +3467,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:titleTextStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -3477,8 +3477,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.cazzy.cazzysimplenetworking.test:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.cazzy.cazzysimplenetworking.test:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.khandani.silverglobesolutions.cazzysimple_networking.test:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.khandani.silverglobesolutions.cazzysimple_networking.test:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -3487,7 +3487,7 @@ public final class R {
         0x7f02006e, 0x7f020085
       };
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3495,17 +3495,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:expandActivityOverflowButtonDrawable
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:initialActivityCount
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -3516,12 +3516,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.cazzy.cazzysimplenetworking.test:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.cazzy.cazzysimplenetworking.test:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.cazzy.cazzysimplenetworking.test:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.cazzy.cazzysimplenetworking.test:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle com.cazzy.cazzysimplenetworking.test:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.cazzy.cazzysimplenetworking.test:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.khandani.silverglobesolutions.cazzysimple_networking.test:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.khandani.silverglobesolutions.cazzysimple_networking.test:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.khandani.silverglobesolutions.cazzysimple_networking.test:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.khandani.silverglobesolutions.cazzysimple_networking.test:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle com.khandani.silverglobesolutions.cazzysimple_networking.test:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.khandani.silverglobesolutions.cazzysimple_networking.test:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonPanelSideLayout
@@ -3548,7 +3548,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3556,11 +3556,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:buttonPanelSideLayout
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=1;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3568,11 +3568,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:listItemLayout
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3580,11 +3580,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:listLayout
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:listLayout
      */
     public static final int AlertDialog_listLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3592,21 +3592,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:multiChoiceItemLayout
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:showTitle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:showTitle
      */
     public static final int AlertDialog_showTitle=5;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3614,7 +3614,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:singleChoiceItemLayout
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=6;
     /**
@@ -3625,9 +3625,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.cazzy.cazzysimplenetworking.test:srcCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint com.cazzy.cazzysimplenetworking.test:tint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode com.cazzy.cazzysimplenetworking.test:tintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.khandani.silverglobesolutions.cazzysimple_networking.test:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint com.khandani.silverglobesolutions.cazzysimple_networking.test:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode com.khandani.silverglobesolutions.cazzysimple_networking.test:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -3653,7 +3653,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3661,22 +3661,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:srcCompat
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#tint}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:tint
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -3692,7 +3692,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:tintMode
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -3703,9 +3703,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.cazzy.cazzysimplenetworking.test:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.cazzy.cazzysimplenetworking.test:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.cazzy.cazzysimplenetworking.test:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.khandani.silverglobesolutions.cazzysimple_networking.test:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.khandani.silverglobesolutions.cazzysimple_networking.test:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.khandani.silverglobesolutions.cazzysimple_networking.test:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -3728,7 +3728,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3736,22 +3736,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:tickMark
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:tickMarkTint
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -3768,7 +3768,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:tickMarkTintMode
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -3799,6 +3799,33 @@ public final class R {
         0x01010170, 0x01010392, 0x01010393
       };
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
+     * attribute's value can be found in the {@link #AppCompatTextHelper} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:textAppearance
+     */
+    public static final int AppCompatTextHelper_android_textAppearance=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#drawableTop}
+     * attribute's value can be found in the {@link #AppCompatTextHelper} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name android:drawableTop
+     */
+    public static final int AppCompatTextHelper_android_drawableTop=1;
+    /**
      * <p>This symbol is the offset where the {@link android.R.attr#drawableBottom}
      * attribute's value can be found in the {@link #AppCompatTextHelper} array.
      *
@@ -3813,21 +3840,6 @@ public final class R {
      * @attr name android:drawableBottom
      */
     public static final int AppCompatTextHelper_android_drawableBottom=2;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#drawableEnd}
-     * attribute's value can be found in the {@link #AppCompatTextHelper} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name android:drawableEnd
-     */
-    public static final int AppCompatTextHelper_android_drawableEnd=6;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#drawableLeft}
      * attribute's value can be found in the {@link #AppCompatTextHelper} array.
@@ -3874,7 +3886,7 @@ public final class R {
      */
     public static final int AppCompatTextHelper_android_drawableStart=5;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#drawableTop}
+     * <p>This symbol is the offset where the {@link android.R.attr#drawableEnd}
      * attribute's value can be found in the {@link #AppCompatTextHelper} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3885,21 +3897,9 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name android:drawableTop
+     * @attr name android:drawableEnd
      */
-    public static final int AppCompatTextHelper_android_drawableTop=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
-     * attribute's value can be found in the {@link #AppCompatTextHelper} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:textAppearance
-     */
-    public static final int AppCompatTextHelper_android_textAppearance=0;
+    public static final int AppCompatTextHelper_android_drawableEnd=6;
     /**
      * Attributes that can be used with a AppCompatTextView.
      * <p>Includes the following attributes:</p>
@@ -3908,13 +3908,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.cazzy.cazzysimplenetworking.test:autoSizeMaxTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.cazzy.cazzysimplenetworking.test:autoSizeMinTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.cazzy.cazzysimplenetworking.test:autoSizePresetSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.cazzy.cazzysimplenetworking.test:autoSizeStepGranularity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.cazzy.cazzysimplenetworking.test:autoSizeTextType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.cazzy.cazzysimplenetworking.test:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.cazzy.cazzysimplenetworking.test:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.khandani.silverglobesolutions.cazzysimple_networking.test:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.khandani.silverglobesolutions.cazzysimple_networking.test:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.khandani.silverglobesolutions.cazzysimple_networking.test:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.khandani.silverglobesolutions.cazzysimple_networking.test:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.khandani.silverglobesolutions.cazzysimple_networking.test:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.khandani.silverglobesolutions.cazzysimple_networking.test:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.khandani.silverglobesolutions.cazzysimple_networking.test:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -3942,7 +3942,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#autoSizeMaxTextSize}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#autoSizeMaxTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3951,11 +3951,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:autoSizeMaxTextSize
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#autoSizeMinTextSize}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#autoSizeMinTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3964,11 +3964,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:autoSizeMinTextSize
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#autoSizePresetSizes}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#autoSizePresetSizes}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3976,11 +3976,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:autoSizePresetSizes
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#autoSizeStepGranularity}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#autoSizeStepGranularity}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3989,11 +3989,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:autoSizeStepGranularity
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#autoSizeTextType}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#autoSizeTextType}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4006,21 +4006,21 @@ public final class R {
      * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:autoSizeTextType
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:fontFamily
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=6;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4030,7 +4030,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:textAllCaps
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=7;
     /**
@@ -4042,123 +4042,123 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.cazzy.cazzysimplenetworking.test:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.cazzy.cazzysimplenetworking.test:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.cazzy.cazzysimplenetworking.test:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.cazzy.cazzysimplenetworking.test:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.cazzy.cazzysimplenetworking.test:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.cazzy.cazzysimplenetworking.test:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.cazzy.cazzysimplenetworking.test:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.cazzy.cazzysimplenetworking.test:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.cazzy.cazzysimplenetworking.test:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.cazzy.cazzysimplenetworking.test:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.cazzy.cazzysimplenetworking.test:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.cazzy.cazzysimplenetworking.test:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.cazzy.cazzysimplenetworking.test:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.cazzy.cazzysimplenetworking.test:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.cazzy.cazzysimplenetworking.test:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.cazzy.cazzysimplenetworking.test:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.cazzy.cazzysimplenetworking.test:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.cazzy.cazzysimplenetworking.test:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.cazzy.cazzysimplenetworking.test:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.cazzy.cazzysimplenetworking.test:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.cazzy.cazzysimplenetworking.test:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.cazzy.cazzysimplenetworking.test:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.cazzy.cazzysimplenetworking.test:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.cazzy.cazzysimplenetworking.test:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.cazzy.cazzysimplenetworking.test:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.cazzy.cazzysimplenetworking.test:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.cazzy.cazzysimplenetworking.test:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.cazzy.cazzysimplenetworking.test:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.cazzy.cazzysimplenetworking.test:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.cazzy.cazzysimplenetworking.test:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.cazzy.cazzysimplenetworking.test:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.cazzy.cazzysimplenetworking.test:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.cazzy.cazzysimplenetworking.test:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.cazzy.cazzysimplenetworking.test:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.cazzy.cazzysimplenetworking.test:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.cazzy.cazzysimplenetworking.test:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.cazzy.cazzysimplenetworking.test:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.cazzy.cazzysimplenetworking.test:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.cazzy.cazzysimplenetworking.test:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.cazzy.cazzysimplenetworking.test:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.cazzy.cazzysimplenetworking.test:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.cazzy.cazzysimplenetworking.test:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.cazzy.cazzysimplenetworking.test:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.cazzy.cazzysimplenetworking.test:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.cazzy.cazzysimplenetworking.test:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.cazzy.cazzysimplenetworking.test:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.cazzy.cazzysimplenetworking.test:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.cazzy.cazzysimplenetworking.test:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.cazzy.cazzysimplenetworking.test:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.cazzy.cazzysimplenetworking.test:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.cazzy.cazzysimplenetworking.test:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.cazzy.cazzysimplenetworking.test:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError com.cazzy.cazzysimplenetworking.test:colorError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.cazzy.cazzysimplenetworking.test:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.cazzy.cazzysimplenetworking.test:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.cazzy.cazzysimplenetworking.test:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.cazzy.cazzysimplenetworking.test:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.cazzy.cazzysimplenetworking.test:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.cazzy.cazzysimplenetworking.test:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.cazzy.cazzysimplenetworking.test:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.cazzy.cazzysimplenetworking.test:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.cazzy.cazzysimplenetworking.test:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.cazzy.cazzysimplenetworking.test:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.cazzy.cazzysimplenetworking.test:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.cazzy.cazzysimplenetworking.test:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.cazzy.cazzysimplenetworking.test:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.cazzy.cazzysimplenetworking.test:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.cazzy.cazzysimplenetworking.test:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.cazzy.cazzysimplenetworking.test:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.cazzy.cazzysimplenetworking.test:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.cazzy.cazzysimplenetworking.test:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.cazzy.cazzysimplenetworking.test:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.cazzy.cazzysimplenetworking.test:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.cazzy.cazzysimplenetworking.test:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.cazzy.cazzysimplenetworking.test:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.cazzy.cazzysimplenetworking.test:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.cazzy.cazzysimplenetworking.test:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.cazzy.cazzysimplenetworking.test:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.cazzy.cazzysimplenetworking.test:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.cazzy.cazzysimplenetworking.test:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.cazzy.cazzysimplenetworking.test:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.cazzy.cazzysimplenetworking.test:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.cazzy.cazzysimplenetworking.test:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.cazzy.cazzysimplenetworking.test:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.cazzy.cazzysimplenetworking.test:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.cazzy.cazzysimplenetworking.test:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.cazzy.cazzysimplenetworking.test:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.cazzy.cazzysimplenetworking.test:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.cazzy.cazzysimplenetworking.test:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.cazzy.cazzysimplenetworking.test:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.cazzy.cazzysimplenetworking.test:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.cazzy.cazzysimplenetworking.test:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.cazzy.cazzysimplenetworking.test:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.cazzy.cazzysimplenetworking.test:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.cazzy.cazzysimplenetworking.test:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.cazzy.cazzysimplenetworking.test:textAppearanceListItemSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.cazzy.cazzysimplenetworking.test:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.cazzy.cazzysimplenetworking.test:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.cazzy.cazzysimplenetworking.test:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.cazzy.cazzysimplenetworking.test:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.cazzy.cazzysimplenetworking.test:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.cazzy.cazzysimplenetworking.test:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.cazzy.cazzysimplenetworking.test:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.cazzy.cazzysimplenetworking.test:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.cazzy.cazzysimplenetworking.test:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.cazzy.cazzysimplenetworking.test:tooltipForegroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.cazzy.cazzysimplenetworking.test:tooltipFrameBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.cazzy.cazzysimplenetworking.test:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.cazzy.cazzysimplenetworking.test:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.cazzy.cazzysimplenetworking.test:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.cazzy.cazzysimplenetworking.test:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.cazzy.cazzysimplenetworking.test:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.cazzy.cazzysimplenetworking.test:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.cazzy.cazzysimplenetworking.test:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.cazzy.cazzysimplenetworking.test:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.cazzy.cazzysimplenetworking.test:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.cazzy.cazzysimplenetworking.test:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.khandani.silverglobesolutions.cazzysimple_networking.test:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.khandani.silverglobesolutions.cazzysimple_networking.test:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.khandani.silverglobesolutions.cazzysimple_networking.test:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.khandani.silverglobesolutions.cazzysimple_networking.test:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.khandani.silverglobesolutions.cazzysimple_networking.test:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.khandani.silverglobesolutions.cazzysimple_networking.test:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.khandani.silverglobesolutions.cazzysimple_networking.test:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.khandani.silverglobesolutions.cazzysimple_networking.test:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.khandani.silverglobesolutions.cazzysimple_networking.test:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.khandani.silverglobesolutions.cazzysimple_networking.test:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.khandani.silverglobesolutions.cazzysimple_networking.test:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.khandani.silverglobesolutions.cazzysimple_networking.test:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.khandani.silverglobesolutions.cazzysimple_networking.test:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.khandani.silverglobesolutions.cazzysimple_networking.test:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.khandani.silverglobesolutions.cazzysimple_networking.test:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.khandani.silverglobesolutions.cazzysimple_networking.test:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.khandani.silverglobesolutions.cazzysimple_networking.test:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError com.khandani.silverglobesolutions.cazzysimple_networking.test:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.khandani.silverglobesolutions.cazzysimple_networking.test:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.khandani.silverglobesolutions.cazzysimple_networking.test:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.khandani.silverglobesolutions.cazzysimple_networking.test:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.khandani.silverglobesolutions.cazzysimple_networking.test:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.khandani.silverglobesolutions.cazzysimple_networking.test:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.khandani.silverglobesolutions.cazzysimple_networking.test:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.khandani.silverglobesolutions.cazzysimple_networking.test:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.khandani.silverglobesolutions.cazzysimple_networking.test:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.khandani.silverglobesolutions.cazzysimple_networking.test:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.khandani.silverglobesolutions.cazzysimple_networking.test:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.khandani.silverglobesolutions.cazzysimple_networking.test:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.khandani.silverglobesolutions.cazzysimple_networking.test:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.khandani.silverglobesolutions.cazzysimple_networking.test:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.khandani.silverglobesolutions.cazzysimple_networking.test:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.khandani.silverglobesolutions.cazzysimple_networking.test:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.khandani.silverglobesolutions.cazzysimple_networking.test:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.khandani.silverglobesolutions.cazzysimple_networking.test:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.khandani.silverglobesolutions.cazzysimple_networking.test:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.khandani.silverglobesolutions.cazzysimple_networking.test:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.khandani.silverglobesolutions.cazzysimple_networking.test:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.khandani.silverglobesolutions.cazzysimple_networking.test:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.khandani.silverglobesolutions.cazzysimple_networking.test:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.khandani.silverglobesolutions.cazzysimple_networking.test:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.khandani.silverglobesolutions.cazzysimple_networking.test:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.khandani.silverglobesolutions.cazzysimple_networking.test:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.khandani.silverglobesolutions.cazzysimple_networking.test:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.khandani.silverglobesolutions.cazzysimple_networking.test:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.khandani.silverglobesolutions.cazzysimple_networking.test:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.khandani.silverglobesolutions.cazzysimple_networking.test:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.khandani.silverglobesolutions.cazzysimple_networking.test:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.khandani.silverglobesolutions.cazzysimple_networking.test:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.khandani.silverglobesolutions.cazzysimple_networking.test:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.khandani.silverglobesolutions.cazzysimple_networking.test:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.khandani.silverglobesolutions.cazzysimple_networking.test:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.khandani.silverglobesolutions.cazzysimple_networking.test:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.khandani.silverglobesolutions.cazzysimple_networking.test:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.khandani.silverglobesolutions.cazzysimple_networking.test:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.khandani.silverglobesolutions.cazzysimple_networking.test:tooltipFrameBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.khandani.silverglobesolutions.cazzysimple_networking.test:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.khandani.silverglobesolutions.cazzysimple_networking.test:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.khandani.silverglobesolutions.cazzysimple_networking.test:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.khandani.silverglobesolutions.cazzysimple_networking.test:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.khandani.silverglobesolutions.cazzysimple_networking.test:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.khandani.silverglobesolutions.cazzysimple_networking.test:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.khandani.silverglobesolutions.cazzysimple_networking.test:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.khandani.silverglobesolutions.cazzysimple_networking.test:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.khandani.silverglobesolutions.cazzysimple_networking.test:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.khandani.silverglobesolutions.cazzysimple_networking.test:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -4313,7 +4313,17 @@ public final class R {
         0x7f0200fc, 0x7f0200fd, 0x7f0200fe
       };
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:windowIsFloating
+     */
+    public static final int AppCompatTheme_android_windowIsFloating=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4321,11 +4331,23 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionBarDivider
+     * @attr name android:windowAnimationStyle
+     */
+    public static final int AppCompatTheme_android_windowAnimationStyle=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionBarDivider}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4333,11 +4355,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionBarItemBackground
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4345,11 +4367,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionBarPopupTheme
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4366,11 +4388,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionBarSize
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4378,11 +4400,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionBarSplitStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4390,11 +4412,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionBarStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4402,11 +4424,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionBarTabBarStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4414,11 +4436,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionBarTabStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4426,11 +4448,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionBarTabTextStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4438,11 +4460,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionBarTheme
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4450,11 +4472,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionBarWidgetTheme
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4462,11 +4484,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionButtonStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4474,11 +4496,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionDropDownStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4486,11 +4508,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionMenuTextAppearance
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4501,11 +4523,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionMenuTextColor
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4513,11 +4535,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionModeBackground
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4525,11 +4547,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionModeCloseButtonStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4537,11 +4559,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionModeCloseDrawable
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4549,11 +4571,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionModeCopyDrawable
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4561,11 +4583,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionModeCutDrawable
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4573,11 +4595,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionModeFindDrawable
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4585,11 +4607,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionModePasteDrawable
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4597,11 +4619,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionModePopupWindowStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4609,11 +4631,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionModeSelectAllDrawable
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4621,11 +4643,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionModeShareDrawable
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4633,11 +4655,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionModeSplitBackground
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4645,11 +4667,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionModeStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4657,11 +4679,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionModeWebSearchDrawable
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4669,11 +4691,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionOverflowButtonStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4681,11 +4703,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionOverflowMenuStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4693,11 +4715,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:activityChooserViewStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4705,21 +4727,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:alertDialogButtonGroupStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:alertDialogCenterButtons
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4727,11 +4749,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:alertDialogStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4739,11 +4761,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:alertDialogTheme
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4751,33 +4773,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name android:windowAnimationStyle
-     */
-    public static final int AppCompatTheme_android_windowAnimationStyle=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:windowIsFloating
-     */
-    public static final int AppCompatTheme_android_windowIsFloating=0;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#autoCompleteTextViewStyle}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:autoCompleteTextViewStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4785,11 +4785,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:borderlessButtonStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4797,11 +4797,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:buttonBarButtonStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4809,11 +4809,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:buttonBarNegativeButtonStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4821,11 +4821,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:buttonBarNeutralButtonStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4833,11 +4833,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:buttonBarPositiveButtonStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4845,11 +4845,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:buttonBarStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4857,11 +4857,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:buttonStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4869,11 +4869,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:buttonStyleSmall
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4881,11 +4881,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:checkboxStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4893,77 +4893,77 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:checkedTextViewStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:colorAccent
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:colorBackgroundFloating
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:colorButtonNormal
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:colorControlActivated
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:colorControlHighlight
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:colorControlNormal
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#colorError}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4974,44 +4974,44 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:colorError
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:colorError
      */
     public static final int AppCompatTheme_colorError=54;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:colorPrimary
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:colorPrimaryDark
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:colorSwitchThumbNormal
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5019,11 +5019,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:controlBackground
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5032,11 +5032,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:dialogPreferredPadding
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=59;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5044,11 +5044,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:dialogTheme
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=60;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5056,11 +5056,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:dividerHorizontal
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=61;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5068,11 +5068,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:dividerVertical
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=62;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5080,11 +5080,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:dropDownListViewStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=63;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5093,11 +5093,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:dropdownListPreferredItemHeight
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=64;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5105,11 +5105,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:editTextBackground
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=65;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5120,11 +5120,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:editTextColor
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=66;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5132,11 +5132,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:editTextStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=67;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5144,11 +5144,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:homeAsUpIndicator
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=68;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5156,11 +5156,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:imageButtonStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=69;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5168,11 +5168,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:listChoiceBackgroundIndicator
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=70;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5180,11 +5180,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:listDividerAlertDialog
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=71;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5192,11 +5192,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:listMenuViewStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=72;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5204,11 +5204,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:listPopupWindowStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5217,11 +5217,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:listPreferredItemHeight
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=74;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5230,11 +5230,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:listPreferredItemHeightLarge
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=75;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5243,11 +5243,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:listPreferredItemHeightSmall
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=76;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5256,11 +5256,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:listPreferredItemPaddingLeft
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=77;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5269,11 +5269,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:listPreferredItemPaddingRight
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=78;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5281,11 +5281,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:panelBackground
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=79;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5293,11 +5293,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:panelMenuListTheme
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=80;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5306,11 +5306,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:panelMenuListWidth
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=81;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5318,11 +5318,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:popupMenuStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=82;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5330,11 +5330,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:popupWindowStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5342,11 +5342,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:radioButtonStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5354,11 +5354,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:ratingBarStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=85;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5366,11 +5366,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:ratingBarStyleIndicator
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=86;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5378,11 +5378,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:ratingBarStyleSmall
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=87;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5390,11 +5390,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:searchViewStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=88;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5402,11 +5402,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:seekBarStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=89;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5414,11 +5414,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:selectableItemBackground
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=90;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5426,11 +5426,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:selectableItemBackgroundBorderless
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=91;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5438,11 +5438,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:spinnerDropDownItemStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=92;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5450,11 +5450,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:spinnerStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5462,11 +5462,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:switchStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=94;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5474,11 +5474,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:textAppearanceLargePopupMenu
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=95;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5486,11 +5486,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:textAppearanceListItem
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=96;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5498,11 +5498,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:textAppearanceListItemSecondary
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=97;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5510,11 +5510,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:textAppearanceListItemSmall
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=98;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5522,11 +5522,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:textAppearancePopupMenuHeader
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=99;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5534,11 +5534,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:textAppearanceSearchResultSubtitle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=100;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5546,11 +5546,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:textAppearanceSearchResultTitle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=101;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5558,11 +5558,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:textAppearanceSmallPopupMenu
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=102;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5573,11 +5573,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:textColorAlertDialogListItem
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=103;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5588,11 +5588,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:textColorSearchUrl
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=104;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5600,11 +5600,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:toolbarNavigationButtonStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=105;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5612,11 +5612,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:toolbarStyle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=106;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#tooltipForegroundColor}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5627,11 +5627,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:tooltipForegroundColor
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=107;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#tooltipFrameBackground}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5639,41 +5639,41 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:tooltipFrameBackground
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=108;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:windowActionBar
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=109;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:windowActionBarOverlay
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=110;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:windowActionModeOverlay
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=111;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5686,11 +5686,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:windowFixedHeightMajor
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=112;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5703,11 +5703,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:windowFixedHeightMinor
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=113;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5720,11 +5720,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:windowFixedWidthMajor
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=114;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5737,11 +5737,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:windowFixedWidthMinor
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=115;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5754,11 +5754,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:windowMinWidthMajor
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=116;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5771,17 +5771,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:windowMinWidthMinor
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=117;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:windowNoTitle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=118;
     /**
@@ -5791,7 +5791,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.cazzy.cazzysimplenetworking.test:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.khandani.silverglobesolutions.cazzysimple_networking.test:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -5799,13 +5799,13 @@ public final class R {
         0x7f020026
       };
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:allowStacking
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -5817,7 +5817,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.cazzy.cazzysimplenetworking.test:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.khandani.silverglobesolutions.cazzysimple_networking.test:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -5826,24 +5826,6 @@ public final class R {
     public static final int[] ColorStateListItem={
         0x010101a5, 0x0101031f, 0x7f020027
       };
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#alpha}
-     * attribute's value can be found in the {@link #ColorStateListItem} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:alpha
-     */
-    public static final int ColorStateListItem_alpha=2;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#alpha}
-     * attribute's value can be found in the {@link #ColorStateListItem} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name android:alpha
-     */
-    public static final int ColorStateListItem_android_alpha=1;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#color}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
@@ -5856,6 +5838,24 @@ public final class R {
      */
     public static final int ColorStateListItem_android_color=0;
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#alpha}
+     * attribute's value can be found in the {@link #ColorStateListItem} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:alpha
+     */
+    public static final int ColorStateListItem_android_alpha=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#alpha}
+     * attribute's value can be found in the {@link #ColorStateListItem} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:alpha
+     */
+    public static final int ColorStateListItem_alpha=2;
+    /**
      * Attributes that can be used with a CompoundButton.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -5863,8 +5863,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.cazzy.cazzysimplenetworking.test:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.cazzy.cazzysimplenetworking.test:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.khandani.silverglobesolutions.cazzysimple_networking.test:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.khandani.silverglobesolutions.cazzysimple_networking.test:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -5886,18 +5886,18 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:buttonTint
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5913,7 +5913,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:buttonTintMode
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -5923,14 +5923,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.cazzy.cazzysimplenetworking.test:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.cazzy.cazzysimplenetworking.test:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.cazzy.cazzysimplenetworking.test:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.cazzy.cazzysimplenetworking.test:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.cazzy.cazzysimplenetworking.test:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.cazzy.cazzysimplenetworking.test:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.cazzy.cazzysimplenetworking.test:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.cazzy.cazzysimplenetworking.test:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.khandani.silverglobesolutions.cazzysimple_networking.test:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.khandani.silverglobesolutions.cazzysimple_networking.test:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.khandani.silverglobesolutions.cazzysimple_networking.test:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.khandani.silverglobesolutions.cazzysimple_networking.test:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.khandani.silverglobesolutions.cazzysimple_networking.test:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.khandani.silverglobesolutions.cazzysimple_networking.test:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.khandani.silverglobesolutions.cazzysimple_networking.test:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.khandani.silverglobesolutions.cazzysimple_networking.test:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -5946,7 +5946,7 @@ public final class R {
         0x7f020066, 0x7f020079, 0x7f0200bc, 0x7f0200d9
       };
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5955,11 +5955,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:arrowHeadLength
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5968,11 +5968,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:arrowShaftLength
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5981,22 +5981,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:barLength
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:color
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6005,11 +6005,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:drawableSize
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6018,21 +6018,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:gapBetweenBars
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:spinBars
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6041,7 +6041,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:thickness
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -6051,12 +6051,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.cazzy.cazzysimplenetworking.test:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.cazzy.cazzysimplenetworking.test:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.cazzy.cazzysimplenetworking.test:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.cazzy.cazzysimplenetworking.test:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.cazzy.cazzysimplenetworking.test:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.cazzy.cazzysimplenetworking.test:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.khandani.silverglobesolutions.cazzysimple_networking.test:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.khandani.silverglobesolutions.cazzysimple_networking.test:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.khandani.silverglobesolutions.cazzysimple_networking.test:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.khandani.silverglobesolutions.cazzysimple_networking.test:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.khandani.silverglobesolutions.cazzysimple_networking.test:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.khandani.silverglobesolutions.cazzysimple_networking.test:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -6070,73 +6070,17 @@ public final class R {
         0x7f020075, 0x7f020076
       };
     /**
-     * Attributes that can be used with a FontFamilyFont.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.cazzy.cazzysimplenetworking.test:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.cazzy.cazzysimplenetworking.test:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.cazzy.cazzysimplenetworking.test:fontWeight}</code></td><td></td></tr>
-     * </table>
-     * @see #FontFamilyFont_font
-     * @see #FontFamilyFont_fontStyle
-     * @see #FontFamilyFont_fontWeight
-     */
-    public static final int[] FontFamilyFont={
-        0x7f02006f, 0x7f020077, 0x7f020078
-      };
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#font}
-     * attribute's value can be found in the {@link #FontFamilyFont} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:font
-     */
-    public static final int FontFamilyFont_font=0;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#fontStyle}
-     * attribute's value can be found in the {@link #FontFamilyFont} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>italic</td><td>1</td><td></td></tr>
-     * <tr><td>normal</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:fontStyle
-     */
-    public static final int FontFamilyFont_fontStyle=1;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#fontWeight}
-     * attribute's value can be found in the {@link #FontFamilyFont} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:fontWeight
-     */
-    public static final int FontFamilyFont_fontWeight=2;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:fontProviderAuthority
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6144,11 +6088,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:fontProviderCerts
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6161,11 +6105,11 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:fontProviderFetchStrategy
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -6178,29 +6122,85 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:fontProviderFetchTimeout
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:fontProviderPackage
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:fontProviderQuery
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
+    /**
+     * Attributes that can be used with a FontFamilyFont.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.khandani.silverglobesolutions.cazzysimple_networking.test:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.khandani.silverglobesolutions.cazzysimple_networking.test:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.khandani.silverglobesolutions.cazzysimple_networking.test:fontWeight}</code></td><td></td></tr>
+     * </table>
+     * @see #FontFamilyFont_font
+     * @see #FontFamilyFont_fontStyle
+     * @see #FontFamilyFont_fontWeight
+     */
+    public static final int[] FontFamilyFont={
+        0x7f02006f, 0x7f020077, 0x7f020078
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#font}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:font
+     */
+    public static final int FontFamilyFont_font=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#fontStyle}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>italic</td><td>1</td><td></td></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:fontStyle
+     */
+    public static final int FontFamilyFont_fontStyle=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#fontWeight}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:fontWeight
+     */
+    public static final int FontFamilyFont_fontWeight=2;
     /**
      * Attributes that can be used with a LinearLayoutCompat.
      * <p>Includes the following attributes:</p>
@@ -6213,10 +6213,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.cazzy.cazzysimplenetworking.test:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.cazzy.cazzysimplenetworking.test:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.cazzy.cazzysimplenetworking.test:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.cazzy.cazzysimplenetworking.test:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.khandani.silverglobesolutions.cazzysimple_networking.test:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.khandani.silverglobesolutions.cazzysimple_networking.test:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.khandani.silverglobesolutions.cazzysimple_networking.test:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.khandani.silverglobesolutions.cazzysimple_networking.test:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -6233,6 +6233,134 @@ public final class R {
         0x01010128, 0x7f020062, 0x7f020064, 0x7f020097, 
         0x7f0200b8
       };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#gravity}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
+     *
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>center</td><td>11</td><td></td></tr>
+     * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
+     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
+     * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
+     * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>fill</td><td>77</td><td></td></tr>
+     * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
+     * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:gravity
+     */
+    public static final int LinearLayoutCompat_android_gravity=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>horizontal</td><td>0</td><td></td></tr>
+     * <tr><td>vertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:orientation
+     */
+    public static final int LinearLayoutCompat_android_orientation=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#baselineAligned}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:baselineAligned
+     */
+    public static final int LinearLayoutCompat_android_baselineAligned=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#baselineAlignedChildIndex}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name android:baselineAlignedChildIndex
+     */
+    public static final int LinearLayoutCompat_android_baselineAlignedChildIndex=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#weightSum}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:weightSum
+     */
+    public static final int LinearLayoutCompat_android_weightSum=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#divider}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:divider
+     */
+    public static final int LinearLayoutCompat_divider=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#dividerPadding}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:dividerPadding
+     */
+    public static final int LinearLayoutCompat_dividerPadding=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#measureWithLargestChild}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:measureWithLargestChild
+     */
+    public static final int LinearLayoutCompat_measureWithLargestChild=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#showDividers}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
+     *
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>beginning</td><td>1</td><td></td></tr>
+     * <tr><td>end</td><td>4</td><td></td></tr>
+     * <tr><td>middle</td><td>2</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:showDividers
+     */
+    public static final int LinearLayoutCompat_showDividers=8;
     /**
      * Attributes that can be used with a LinearLayoutCompat_Layout.
      * <p>Includes the following attributes:</p>
@@ -6283,6 +6411,29 @@ public final class R {
      */
     public static final int LinearLayoutCompat_Layout_android_layout_gravity=0;
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_width}
+     * attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:layout_width
+     */
+    public static final int LinearLayoutCompat_Layout_android_layout_width=1;
+    /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_height}
      * attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
      *
@@ -6314,157 +6465,6 @@ public final class R {
      * @attr name android:layout_weight
      */
     public static final int LinearLayoutCompat_Layout_android_layout_weight=3;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_width}
-     * attribute's value can be found in the {@link #LinearLayoutCompat_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:layout_width
-     */
-    public static final int LinearLayoutCompat_Layout_android_layout_width=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#baselineAligned}
-     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:baselineAligned
-     */
-    public static final int LinearLayoutCompat_android_baselineAligned=2;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#baselineAlignedChildIndex}
-     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name android:baselineAlignedChildIndex
-     */
-    public static final int LinearLayoutCompat_android_baselineAlignedChildIndex=3;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#gravity}
-     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
-     *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td></td></tr>
-     * <tr><td>center</td><td>11</td><td></td></tr>
-     * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
-     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
-     * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
-     * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
-     * <tr><td>end</td><td>800005</td><td></td></tr>
-     * <tr><td>fill</td><td>77</td><td></td></tr>
-     * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
-     * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
-     * <tr><td>left</td><td>3</td><td></td></tr>
-     * <tr><td>right</td><td>5</td><td></td></tr>
-     * <tr><td>start</td><td>800003</td><td></td></tr>
-     * <tr><td>top</td><td>30</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:gravity
-     */
-    public static final int LinearLayoutCompat_android_gravity=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
-     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>horizontal</td><td>0</td><td></td></tr>
-     * <tr><td>vertical</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:orientation
-     */
-    public static final int LinearLayoutCompat_android_orientation=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#weightSum}
-     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name android:weightSum
-     */
-    public static final int LinearLayoutCompat_android_weightSum=4;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#divider}
-     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:divider
-     */
-    public static final int LinearLayoutCompat_divider=5;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#dividerPadding}
-     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:dividerPadding
-     */
-    public static final int LinearLayoutCompat_dividerPadding=6;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#measureWithLargestChild}
-     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:measureWithLargestChild
-     */
-    public static final int LinearLayoutCompat_measureWithLargestChild=7;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#showDividers}
-     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
-     *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>beginning</td><td>1</td><td></td></tr>
-     * <tr><td>end</td><td>4</td><td></td></tr>
-     * <tr><td>middle</td><td>2</td><td></td></tr>
-     * <tr><td>none</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:showDividers
-     */
-    public static final int LinearLayoutCompat_showDividers=8;
     /**
      * Attributes that can be used with a ListPopupWindow.
      * <p>Includes the following attributes:</p>
@@ -6533,24 +6533,6 @@ public final class R {
         0x010101df, 0x010101e0
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#checkableBehavior}
-     * attribute's value can be found in the {@link #MenuGroup} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>all</td><td>1</td><td></td></tr>
-     * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>single</td><td>2</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:checkableBehavior
-     */
-    public static final int MenuGroup_android_checkableBehavior=5;
-    /**
      * <p>This symbol is the offset where the {@link android.R.attr#enabled}
      * attribute's value can be found in the {@link #MenuGroup} array.
      *
@@ -6572,6 +6554,16 @@ public final class R {
      * @attr name android:id
      */
     public static final int MenuGroup_android_id=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #MenuGroup} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:visible
+     */
+    public static final int MenuGroup_android_visible=2;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#menuCategory}
      * attribute's value can be found in the {@link #MenuGroup} array.
@@ -6601,15 +6593,23 @@ public final class R {
      */
     public static final int MenuGroup_android_orderInCategory=4;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * <p>This symbol is the offset where the {@link android.R.attr#checkableBehavior}
      * attribute's value can be found in the {@link #MenuGroup} array.
      *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>all</td><td>1</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>single</td><td>2</td><td></td></tr>
+     * </table>
      *
-     * @attr name android:visible
+     * @attr name android:checkableBehavior
      */
-    public static final int MenuGroup_android_visible=2;
+    public static final int MenuGroup_android_checkableBehavior=5;
     /**
      * Attributes that can be used with a MenuItem.
      * <p>Includes the following attributes:</p>
@@ -6630,16 +6630,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.cazzy.cazzysimplenetworking.test:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.cazzy.cazzysimplenetworking.test:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.cazzy.cazzysimplenetworking.test:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.cazzy.cazzysimplenetworking.test:alphabeticModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription com.cazzy.cazzysimplenetworking.test:contentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint com.cazzy.cazzysimplenetworking.test:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode com.cazzy.cazzysimplenetworking.test:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers com.cazzy.cazzysimplenetworking.test:numericModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.cazzy.cazzysimplenetworking.test:showAsAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText com.cazzy.cazzysimplenetworking.test:tooltipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.khandani.silverglobesolutions.cazzysimple_networking.test:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.khandani.silverglobesolutions.cazzysimple_networking.test:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.khandani.silverglobesolutions.cazzysimple_networking.test:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.khandani.silverglobesolutions.cazzysimple_networking.test:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription com.khandani.silverglobesolutions.cazzysimple_networking.test:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint com.khandani.silverglobesolutions.cazzysimple_networking.test:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode com.khandani.silverglobesolutions.cazzysimple_networking.test:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers com.khandani.silverglobesolutions.cazzysimple_networking.test:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.khandani.silverglobesolutions.cazzysimple_networking.test:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText com.khandani.silverglobesolutions.cazzysimple_networking.test:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -6674,99 +6674,6 @@ public final class R {
         0x7f02009c, 0x7f0200b7, 0x7f0200f0
       };
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionLayout}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionLayout
-     */
-    public static final int MenuItem_actionLayout=13;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionProviderClass}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionProviderClass
-     */
-    public static final int MenuItem_actionProviderClass=14;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#actionViewClass}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:actionViewClass
-     */
-    public static final int MenuItem_actionViewClass=15;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#alphabeticModifiers}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>ALT</td><td>2</td><td></td></tr>
-     * <tr><td>CTRL</td><td>1000</td><td></td></tr>
-     * <tr><td>FUNCTION</td><td>8</td><td></td></tr>
-     * <tr><td>META</td><td>10000</td><td></td></tr>
-     * <tr><td>SHIFT</td><td>1</td><td></td></tr>
-     * <tr><td>SYM</td><td>4</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:alphabeticModifiers
-     */
-    public static final int MenuItem_alphabeticModifiers=16;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#alphabeticShortcut}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name android:alphabeticShortcut
-     */
-    public static final int MenuItem_android_alphabeticShortcut=9;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#checkable}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:checkable
-     */
-    public static final int MenuItem_android_checkable=11;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#checked}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:checked
-     */
-    public static final int MenuItem_android_checked=3;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#enabled}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:enabled
-     */
-    public static final int MenuItem_android_enabled=1;
-    /**
      * <p>This symbol is the offset where the {@link android.R.attr#icon}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
@@ -6779,6 +6686,16 @@ public final class R {
      */
     public static final int MenuItem_android_icon=0;
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#enabled}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:enabled
+     */
+    public static final int MenuItem_android_enabled=1;
+    /**
      * <p>This symbol is the offset where the {@link android.R.attr#id}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
@@ -6790,6 +6707,26 @@ public final class R {
      * @attr name android:id
      */
     public static final int MenuItem_android_id=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#checked}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:checked
+     */
+    public static final int MenuItem_android_checked=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:visible
+     */
+    public static final int MenuItem_android_visible=4;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#menuCategory}
      * attribute's value can be found in the {@link #MenuItem} array.
@@ -6809,26 +6746,6 @@ public final class R {
      * @attr name android:menuCategory
      */
     public static final int MenuItem_android_menuCategory=5;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#numericShortcut}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name android:numericShortcut
-     */
-    public static final int MenuItem_android_numericShortcut=10;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#onClick}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name android:onClick
-     */
-    public static final int MenuItem_android_onClick=12;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orderInCategory}
      * attribute's value can be found in the {@link #MenuItem} array.
@@ -6859,59 +6776,79 @@ public final class R {
      */
     public static final int MenuItem_android_titleCondensed=8;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#visible}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:visible
-     */
-    public static final int MenuItem_android_visible=4;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#contentDescription}
+     * <p>This symbol is the offset where the {@link android.R.attr#alphabeticShortcut}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:contentDescription
+     * @attr name android:alphabeticShortcut
      */
-    public static final int MenuItem_contentDescription=17;
+    public static final int MenuItem_android_alphabeticShortcut=9;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link android.R.attr#numericShortcut}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:iconTint
+     * @attr name android:numericShortcut
      */
-    public static final int MenuItem_iconTint=18;
+    public static final int MenuItem_android_numericShortcut=10;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link android.R.attr#checkable}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td></td></tr>
-     * <tr><td>multiply</td><td>e</td><td></td></tr>
-     * <tr><td>screen</td><td>f</td><td></td></tr>
-     * <tr><td>src_atop</td><td>9</td><td></td></tr>
-     * <tr><td>src_in</td><td>5</td><td></td></tr>
-     * <tr><td>src_over</td><td>3</td><td></td></tr>
-     * </table>
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:iconTintMode
+     * @attr name android:checkable
      */
-    public static final int MenuItem_iconTintMode=19;
+    public static final int MenuItem_android_checkable=11;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#numericModifiers}
+     * <p>This symbol is the offset where the {@link android.R.attr#onClick}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name android:onClick
+     */
+    public static final int MenuItem_android_onClick=12;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionLayout}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionLayout
+     */
+    public static final int MenuItem_actionLayout=13;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionProviderClass}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionProviderClass
+     */
+    public static final int MenuItem_actionProviderClass=14;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#actionViewClass}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:actionViewClass
+     */
+    public static final int MenuItem_actionViewClass=15;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#alphabeticModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -6928,11 +6865,74 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:numericModifiers
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:alphabeticModifiers
+     */
+    public static final int MenuItem_alphabeticModifiers=16;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#contentDescription}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:contentDescription
+     */
+    public static final int MenuItem_contentDescription=17;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#iconTint}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:iconTint
+     */
+    public static final int MenuItem_iconTint=18;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#iconTintMode}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:iconTintMode
+     */
+    public static final int MenuItem_iconTintMode=19;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#numericModifiers}
+     * attribute's value can be found in the {@link #MenuItem} array.
+     *
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>ALT</td><td>2</td><td></td></tr>
+     * <tr><td>CTRL</td><td>1000</td><td></td></tr>
+     * <tr><td>FUNCTION</td><td>8</td><td></td></tr>
+     * <tr><td>META</td><td>10000</td><td></td></tr>
+     * <tr><td>SHIFT</td><td>1</td><td></td></tr>
+     * <tr><td>SYM</td><td>4</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -6948,17 +6948,17 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:showAsAction
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#tooltipText}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#tooltipText}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:tooltipText
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -6975,8 +6975,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.cazzy.cazzysimplenetworking.test:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.cazzy.cazzysimplenetworking.test:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.khandani.silverglobesolutions.cazzysimple_networking.test:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.khandani.silverglobesolutions.cazzysimple_networking.test:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -6994,6 +6994,54 @@ public final class R {
         0x7f0200c2
       };
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
+     * attribute's value can be found in the {@link #MenuView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:windowAnimationStyle
+     */
+    public static final int MenuView_android_windowAnimationStyle=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#itemTextAppearance}
+     * attribute's value can be found in the {@link #MenuView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:itemTextAppearance
+     */
+    public static final int MenuView_android_itemTextAppearance=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#horizontalDivider}
+     * attribute's value can be found in the {@link #MenuView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:horizontalDivider
+     */
+    public static final int MenuView_android_horizontalDivider=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#verticalDivider}
+     * attribute's value can be found in the {@link #MenuView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:verticalDivider
+     */
+    public static final int MenuView_android_verticalDivider=3;
+    /**
      * <p>This symbol is the offset where the {@link android.R.attr#headerBackground}
      * attribute's value can be found in the {@link #MenuView} array.
      *
@@ -7008,18 +7056,6 @@ public final class R {
      * @attr name android:headerBackground
      */
     public static final int MenuView_android_headerBackground=4;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#horizontalDivider}
-     * attribute's value can be found in the {@link #MenuView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:horizontalDivider
-     */
-    public static final int MenuView_android_horizontalDivider=2;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#itemBackground}
      * attribute's value can be found in the {@link #MenuView} array.
@@ -7045,53 +7081,17 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#itemTextAppearance}
-     * attribute's value can be found in the {@link #MenuView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:itemTextAppearance
-     */
-    public static final int MenuView_android_itemTextAppearance=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#verticalDivider}
-     * attribute's value can be found in the {@link #MenuView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:verticalDivider
-     */
-    public static final int MenuView_android_verticalDivider=3;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
-     * attribute's value can be found in the {@link #MenuView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:windowAnimationStyle
-     */
-    public static final int MenuView_android_windowAnimationStyle=0;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:preserveIconSpacing
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7099,7 +7099,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:subMenuArrow
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -7111,7 +7111,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.cazzy.cazzysimplenetworking.test:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.khandani.silverglobesolutions.cazzysimple_networking.test:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -7120,42 +7120,6 @@ public final class R {
     public static final int[] PopupWindow={
         0x01010176, 0x010102c9, 0x7f02009d
       };
-    /**
-     * Attributes that can be used with a PopupWindowBackgroundState.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.cazzy.cazzysimplenetworking.test:state_above_anchor}</code></td><td></td></tr>
-     * </table>
-     * @see #PopupWindowBackgroundState_state_above_anchor
-     */
-    public static final int[] PopupWindowBackgroundState={
-        0x7f0200c1
-      };
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#state_above_anchor}
-     * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:state_above_anchor
-     */
-    public static final int PopupWindowBackgroundState_state_above_anchor=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#popupAnimationStyle}
-     * attribute's value can be found in the {@link #PopupWindow} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:popupAnimationStyle
-     */
-    public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
      * attribute's value can be found in the {@link #PopupWindow} array.
@@ -7172,15 +7136,51 @@ public final class R {
      */
     public static final int PopupWindow_android_popupBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link android.R.attr#popupAnimationStyle}
+     * attribute's value can be found in the {@link #PopupWindow} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:popupAnimationStyle
+     */
+    public static final int PopupWindow_android_popupAnimationStyle=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:overlapAnchor
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
+    /**
+     * Attributes that can be used with a PopupWindowBackgroundState.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.khandani.silverglobesolutions.cazzysimple_networking.test:state_above_anchor}</code></td><td></td></tr>
+     * </table>
+     * @see #PopupWindowBackgroundState_state_above_anchor
+     */
+    public static final int[] PopupWindowBackgroundState={
+        0x7f0200c1
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#state_above_anchor}
+     * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:state_above_anchor
+     */
+    public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
      * Attributes that can be used with a RecycleListView.
      * <p>Includes the following attributes:</p>
@@ -7188,8 +7188,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.cazzy.cazzysimplenetworking.test:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.cazzy.cazzysimplenetworking.test:paddingTopNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.khandani.silverglobesolutions.cazzysimple_networking.test:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.khandani.silverglobesolutions.cazzysimple_networking.test:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
@@ -7198,7 +7198,7 @@ public final class R {
         0x7f02009e, 0x7f0200a1
       };
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7207,11 +7207,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:paddingBottomNoButtons
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7220,7 +7220,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:paddingTopNoTitle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -7234,19 +7234,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.cazzy.cazzysimplenetworking.test:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.cazzy.cazzysimplenetworking.test:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.cazzy.cazzysimplenetworking.test:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.cazzy.cazzysimplenetworking.test:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.cazzy.cazzysimplenetworking.test:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.cazzy.cazzysimplenetworking.test:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.cazzy.cazzysimplenetworking.test:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.cazzy.cazzysimplenetworking.test:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.cazzy.cazzysimplenetworking.test:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.cazzy.cazzysimplenetworking.test:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.cazzy.cazzysimplenetworking.test:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.cazzy.cazzysimplenetworking.test:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.cazzy.cazzysimplenetworking.test:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon com.khandani.silverglobesolutions.cazzysimple_networking.test:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.khandani.silverglobesolutions.cazzysimple_networking.test:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.khandani.silverglobesolutions.cazzysimple_networking.test:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.khandani.silverglobesolutions.cazzysimple_networking.test:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.khandani.silverglobesolutions.cazzysimple_networking.test:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.khandani.silverglobesolutions.cazzysimple_networking.test:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.khandani.silverglobesolutions.cazzysimple_networking.test:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.khandani.silverglobesolutions.cazzysimple_networking.test:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.khandani.silverglobesolutions.cazzysimple_networking.test:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.khandani.silverglobesolutions.cazzysimple_networking.test:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.khandani.silverglobesolutions.cazzysimple_networking.test:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.khandani.silverglobesolutions.cazzysimple_networking.test:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.khandani.silverglobesolutions.cazzysimple_networking.test:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -7292,37 +7292,18 @@ public final class R {
      */
     public static final int SearchView_android_focusable=0;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#imeOptions}
+     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
      * attribute's value can be found in the {@link #SearchView} array.
      *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>actionDone</td><td>6</td><td></td></tr>
-     * <tr><td>actionGo</td><td>2</td><td></td></tr>
-     * <tr><td>actionNext</td><td>5</td><td></td></tr>
-     * <tr><td>actionNone</td><td>1</td><td></td></tr>
-     * <tr><td>actionPrevious</td><td>7</td><td></td></tr>
-     * <tr><td>actionSearch</td><td>3</td><td></td></tr>
-     * <tr><td>actionSend</td><td>4</td><td></td></tr>
-     * <tr><td>actionUnspecified</td><td>0</td><td></td></tr>
-     * <tr><td>flagForceAscii</td><td>80000000</td><td></td></tr>
-     * <tr><td>flagNavigateNext</td><td>8000000</td><td></td></tr>
-     * <tr><td>flagNavigatePrevious</td><td>4000000</td><td></td></tr>
-     * <tr><td>flagNoAccessoryAction</td><td>20000000</td><td></td></tr>
-     * <tr><td>flagNoEnterAction</td><td>40000000</td><td></td></tr>
-     * <tr><td>flagNoExtractUi</td><td>10000000</td><td></td></tr>
-     * <tr><td>flagNoFullscreen</td><td>2000000</td><td></td></tr>
-     * <tr><td>flagNoPersonalizedLearning</td><td>1000000</td><td></td></tr>
-     * <tr><td>normal</td><td>0</td><td></td></tr>
-     * </table>
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
      *
-     * @attr name android:imeOptions
+     * @attr name android:maxWidth
      */
-    public static final int SearchView_android_imeOptions=3;
+    public static final int SearchView_android_maxWidth=1;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#inputType}
      * attribute's value can be found in the {@link #SearchView} array.
@@ -7371,20 +7352,39 @@ public final class R {
      */
     public static final int SearchView_android_inputType=2;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
+     * <p>This symbol is the offset where the {@link android.R.attr#imeOptions}
      * attribute's value can be found in the {@link #SearchView} array.
      *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>actionDone</td><td>6</td><td></td></tr>
+     * <tr><td>actionGo</td><td>2</td><td></td></tr>
+     * <tr><td>actionNext</td><td>5</td><td></td></tr>
+     * <tr><td>actionNone</td><td>1</td><td></td></tr>
+     * <tr><td>actionPrevious</td><td>7</td><td></td></tr>
+     * <tr><td>actionSearch</td><td>3</td><td></td></tr>
+     * <tr><td>actionSend</td><td>4</td><td></td></tr>
+     * <tr><td>actionUnspecified</td><td>0</td><td></td></tr>
+     * <tr><td>flagForceAscii</td><td>80000000</td><td></td></tr>
+     * <tr><td>flagNavigateNext</td><td>8000000</td><td></td></tr>
+     * <tr><td>flagNavigatePrevious</td><td>4000000</td><td></td></tr>
+     * <tr><td>flagNoAccessoryAction</td><td>20000000</td><td></td></tr>
+     * <tr><td>flagNoEnterAction</td><td>40000000</td><td></td></tr>
+     * <tr><td>flagNoExtractUi</td><td>10000000</td><td></td></tr>
+     * <tr><td>flagNoFullscreen</td><td>2000000</td><td></td></tr>
+     * <tr><td>flagNoPersonalizedLearning</td><td>1000000</td><td></td></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * </table>
      *
-     * @attr name android:maxWidth
+     * @attr name android:imeOptions
      */
-    public static final int SearchView_android_maxWidth=1;
+    public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7392,11 +7392,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:closeIcon
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7404,21 +7404,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:commitIcon
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:defaultQueryHint
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7426,21 +7426,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:goIcon
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:iconifiedByDefault
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#layout}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7448,11 +7448,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:layout
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7460,21 +7460,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:queryBackground
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:queryHint
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7482,11 +7482,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:searchHintIcon
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7494,11 +7494,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:searchIcon
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7506,11 +7506,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:submitBackground
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7518,11 +7518,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:suggestionRowLayout
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7530,7 +7530,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:voiceIcon
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -7544,7 +7544,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.cazzy.cazzysimplenetworking.test:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.khandani.silverglobesolutions.cazzysimple_networking.test:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -7556,29 +7556,6 @@ public final class R {
         0x010100b2, 0x01010176, 0x0101017b, 0x01010262, 
         0x7f0200a6
       };
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#dropDownWidth}
-     * attribute's value can be found in the {@link #Spinner} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:dropDownWidth
-     */
-    public static final int Spinner_android_dropDownWidth=3;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#entries}
      * attribute's value can be found in the {@link #Spinner} array.
@@ -7619,7 +7596,30 @@ public final class R {
      */
     public static final int Spinner_android_prompt=2;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link android.R.attr#dropDownWidth}
+     * attribute's value can be found in the {@link #Spinner} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:dropDownWidth
+     */
+    public static final int Spinner_android_dropDownWidth=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7627,7 +7627,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:popupTheme
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -7640,17 +7640,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.cazzy.cazzysimplenetworking.test:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.cazzy.cazzysimplenetworking.test:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.cazzy.cazzysimplenetworking.test:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.cazzy.cazzysimplenetworking.test:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.cazzy.cazzysimplenetworking.test:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.cazzy.cazzysimplenetworking.test:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.cazzy.cazzysimplenetworking.test:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.cazzy.cazzysimplenetworking.test:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.cazzy.cazzysimplenetworking.test:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.cazzy.cazzysimplenetworking.test:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.cazzy.cazzysimplenetworking.test:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.khandani.silverglobesolutions.cazzysimple_networking.test:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.khandani.silverglobesolutions.cazzysimple_networking.test:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.khandani.silverglobesolutions.cazzysimple_networking.test:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.khandani.silverglobesolutions.cazzysimple_networking.test:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.khandani.silverglobesolutions.cazzysimple_networking.test:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.khandani.silverglobesolutions.cazzysimple_networking.test:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.khandani.silverglobesolutions.cazzysimple_networking.test:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.khandani.silverglobesolutions.cazzysimple_networking.test:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.khandani.silverglobesolutions.cazzysimple_networking.test:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.khandani.silverglobesolutions.cazzysimple_networking.test:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.khandani.silverglobesolutions.cazzysimple_networking.test:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -7674,16 +7674,6 @@ public final class R {
         0x7f0200f2, 0x7f0200f3
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#textOff}
-     * attribute's value can be found in the {@link #SwitchCompat} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name android:textOff
-     */
-    public static final int SwitchCompat_android_textOff=1;
-    /**
      * <p>This symbol is the offset where the {@link android.R.attr#textOn}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
@@ -7693,6 +7683,16 @@ public final class R {
      * @attr name android:textOn
      */
     public static final int SwitchCompat_android_textOn=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#textOff}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name android:textOff
+     */
+    public static final int SwitchCompat_android_textOff=1;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#thumb}
      * attribute's value can be found in the {@link #SwitchCompat} array.
@@ -7706,27 +7706,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#showText}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:showText
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:splitTrack
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7735,11 +7735,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:switchMinWidth
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7748,11 +7748,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:switchPadding
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7760,11 +7760,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:switchTextAppearance
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7773,22 +7773,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:thumbTextPadding
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:thumbTint
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7805,11 +7805,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:thumbTintMode
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#track}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7817,22 +7817,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:track
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:trackTint
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7849,7 +7849,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:trackTintMode
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -7870,8 +7870,8 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily com.cazzy.cazzysimplenetworking.test:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.cazzy.cazzysimplenetworking.test:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily com.khandani.silverglobesolutions.cazzysimple_networking.test:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.khandani.silverglobesolutions.cazzysimple_networking.test:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -7894,53 +7894,55 @@ public final class R {
         0x7f0200cd
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link android.R.attr#textSize}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
      *
-     * @attr name android:fontFamily
+     * @attr name android:textSize
      */
-    public static final int TextAppearance_android_fontFamily=10;
+    public static final int TextAppearance_android_textSize=0;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#shadowColor}
+     * <p>This symbol is the offset where the {@link android.R.attr#typeface}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>monospace</td><td>3</td><td></td></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * <tr><td>sans</td><td>1</td><td></td></tr>
+     * <tr><td>serif</td><td>2</td><td></td></tr>
+     * </table>
      *
-     * @attr name android:shadowColor
+     * @attr name android:typeface
      */
-    public static final int TextAppearance_android_shadowColor=6;
+    public static final int TextAppearance_android_typeface=1;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#shadowDx}
+     * <p>This symbol is the offset where the {@link android.R.attr#textStyle}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bold</td><td>1</td><td></td></tr>
+     * <tr><td>italic</td><td>2</td><td></td></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * </table>
      *
-     * @attr name android:shadowDx
+     * @attr name android:textStyle
      */
-    public static final int TextAppearance_android_shadowDx=7;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#shadowDy}
-     * attribute's value can be found in the {@link #TextAppearance} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name android:shadowDy
-     */
-    public static final int TextAppearance_android_shadowDy=8;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#shadowRadius}
-     * attribute's value can be found in the {@link #TextAppearance} array.
-     *
-     * <p>May be a floating point value, such as "<code>1.2</code>".
-     *
-     * @attr name android:shadowRadius
-     */
-    public static final int TextAppearance_android_shadowRadius=9;
+    public static final int TextAppearance_android_textStyle=2;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textColor}
      * attribute's value can be found in the {@link #TextAppearance} array.
@@ -7987,67 +7989,65 @@ public final class R {
      */
     public static final int TextAppearance_android_textColorLink=5;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#textSize}
+     * <p>This symbol is the offset where the {@link android.R.attr#shadowColor}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name android:textSize
+     * @attr name android:shadowColor
      */
-    public static final int TextAppearance_android_textSize=0;
+    public static final int TextAppearance_android_shadowColor=6;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#textStyle}
+     * <p>This symbol is the offset where the {@link android.R.attr#shadowDx}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bold</td><td>1</td><td></td></tr>
-     * <tr><td>italic</td><td>2</td><td></td></tr>
-     * <tr><td>normal</td><td>0</td><td></td></tr>
-     * </table>
+     * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name android:textStyle
+     * @attr name android:shadowDx
      */
-    public static final int TextAppearance_android_textStyle=2;
+    public static final int TextAppearance_android_shadowDx=7;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#typeface}
+     * <p>This symbol is the offset where the {@link android.R.attr#shadowDy}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>monospace</td><td>3</td><td></td></tr>
-     * <tr><td>normal</td><td>0</td><td></td></tr>
-     * <tr><td>sans</td><td>1</td><td></td></tr>
-     * <tr><td>serif</td><td>2</td><td></td></tr>
-     * </table>
+     * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name android:typeface
+     * @attr name android:shadowDy
      */
-    public static final int TextAppearance_android_typeface=1;
+    public static final int TextAppearance_android_shadowDy=8;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link android.R.attr#shadowRadius}
+     * attribute's value can be found in the {@link #TextAppearance} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:shadowRadius
+     */
+    public static final int TextAppearance_android_shadowRadius=9;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:fontFamily
+     * @attr name android:fontFamily
+     */
+    public static final int TextAppearance_android_fontFamily=10;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#fontFamily}
+     * attribute's value can be found in the {@link #TextAppearance} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:fontFamily
      */
     public static final int TextAppearance_fontFamily=11;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8057,7 +8057,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:textAllCaps
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=12;
     /**
@@ -8069,33 +8069,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.cazzy.cazzysimplenetworking.test:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.cazzy.cazzysimplenetworking.test:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.cazzy.cazzysimplenetworking.test:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.cazzy.cazzysimplenetworking.test:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.cazzy.cazzysimplenetworking.test:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.cazzy.cazzysimplenetworking.test:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.cazzy.cazzysimplenetworking.test:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.cazzy.cazzysimplenetworking.test:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.cazzy.cazzysimplenetworking.test:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.cazzy.cazzysimplenetworking.test:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.cazzy.cazzysimplenetworking.test:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.cazzy.cazzysimplenetworking.test:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.cazzy.cazzysimplenetworking.test:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.cazzy.cazzysimplenetworking.test:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.cazzy.cazzysimplenetworking.test:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.cazzy.cazzysimplenetworking.test:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.cazzy.cazzysimplenetworking.test:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.cazzy.cazzysimplenetworking.test:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.cazzy.cazzysimplenetworking.test:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.cazzy.cazzysimplenetworking.test:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.cazzy.cazzysimplenetworking.test:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.cazzy.cazzysimplenetworking.test:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.cazzy.cazzysimplenetworking.test:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.cazzy.cazzysimplenetworking.test:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.cazzy.cazzysimplenetworking.test:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.cazzy.cazzysimplenetworking.test:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.cazzy.cazzysimplenetworking.test:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.khandani.silverglobesolutions.cazzysimple_networking.test:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.khandani.silverglobesolutions.cazzysimple_networking.test:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.khandani.silverglobesolutions.cazzysimple_networking.test:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.khandani.silverglobesolutions.cazzysimple_networking.test:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.khandani.silverglobesolutions.cazzysimple_networking.test:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.khandani.silverglobesolutions.cazzysimple_networking.test:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.khandani.silverglobesolutions.cazzysimple_networking.test:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.khandani.silverglobesolutions.cazzysimple_networking.test:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.khandani.silverglobesolutions.cazzysimple_networking.test:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.khandani.silverglobesolutions.cazzysimple_networking.test:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.khandani.silverglobesolutions.cazzysimple_networking.test:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.khandani.silverglobesolutions.cazzysimple_networking.test:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.khandani.silverglobesolutions.cazzysimple_networking.test:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.khandani.silverglobesolutions.cazzysimple_networking.test:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.khandani.silverglobesolutions.cazzysimple_networking.test:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.khandani.silverglobesolutions.cazzysimple_networking.test:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.khandani.silverglobesolutions.cazzysimple_networking.test:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.khandani.silverglobesolutions.cazzysimple_networking.test:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.khandani.silverglobesolutions.cazzysimple_networking.test:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.khandani.silverglobesolutions.cazzysimple_networking.test:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.khandani.silverglobesolutions.cazzysimple_networking.test:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -8180,7 +8180,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8193,21 +8193,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:buttonGravity
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:collapseContentDescription
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8215,11 +8215,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:collapseIcon
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8228,11 +8228,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:contentInsetEnd
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8241,11 +8241,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:contentInsetEndWithActions
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8254,11 +8254,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:contentInsetLeft
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8267,11 +8267,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:contentInsetRight
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8280,11 +8280,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:contentInsetStart
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8293,11 +8293,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:contentInsetStartWithNavigation
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8305,21 +8305,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:logo
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:logoDescription
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8328,21 +8328,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:maxButtonHeight
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:navigationContentDescription
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8350,11 +8350,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:navigationIcon
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8362,21 +8362,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:popupTheme
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:subtitle
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8384,32 +8384,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:subtitleTextAppearance
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:subtitleTextColor
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:title
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8418,11 +8418,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:titleMargin
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8431,11 +8431,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:titleMarginBottom
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8444,11 +8444,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:titleMarginEnd
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8457,11 +8457,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:titleMarginStart
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8470,11 +8470,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:titleMarginTop
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8483,11 +8483,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:titleMargins
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8495,18 +8495,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:titleTextAppearance
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:titleTextColor
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -8518,9 +8518,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.cazzy.cazzysimplenetworking.test:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.cazzy.cazzysimplenetworking.test:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme com.cazzy.cazzysimplenetworking.test:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.khandani.silverglobesolutions.cazzysimple_networking.test:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.khandani.silverglobesolutions.cazzysimple_networking.test:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.khandani.silverglobesolutions.cazzysimple_networking.test:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -8533,6 +8533,74 @@ public final class R {
         0x7f0200d8
       };
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#theme}
+     * attribute's value can be found in the {@link #View} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:theme
+     */
+    public static final int View_android_theme=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#focusable}
+     * attribute's value can be found in the {@link #View} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>auto</td><td>10</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:focusable
+     */
+    public static final int View_android_focusable=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#paddingEnd}
+     * attribute's value can be found in the {@link #View} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:paddingEnd
+     */
+    public static final int View_paddingEnd=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#paddingStart}
+     * attribute's value can be found in the {@link #View} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:paddingStart
+     */
+    public static final int View_paddingStart=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#theme}
+     * attribute's value can be found in the {@link #View} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:theme
+     */
+    public static final int View_theme=4;
+    /**
      * Attributes that can be used with a ViewBackgroundHelper.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -8540,8 +8608,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.cazzy.cazzysimplenetworking.test:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.cazzy.cazzysimplenetworking.test:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.khandani.silverglobesolutions.cazzysimple_networking.test:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.khandani.silverglobesolutions.cazzysimple_networking.test:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -8566,18 +8634,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:backgroundTint
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.khandani.silverglobesolutions.cazzysimple_networking.test.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8593,7 +8661,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.cazzy.cazzysimplenetworking.test:backgroundTintMode
+     * @attr name com.khandani.silverglobesolutions.cazzysimple_networking.test:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**
@@ -8627,18 +8695,6 @@ public final class R {
      */
     public static final int ViewStubCompat_android_id=0;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#inflatedId}
-     * attribute's value can be found in the {@link #ViewStubCompat} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:inflatedId
-     */
-    public static final int ViewStubCompat_android_inflatedId=2;
-    /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
      * attribute's value can be found in the {@link #ViewStubCompat} array.
      *
@@ -8651,72 +8707,16 @@ public final class R {
      */
     public static final int ViewStubCompat_android_layout=1;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#focusable}
-     * attribute's value can be found in the {@link #View} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>auto</td><td>10</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:focusable
-     */
-    public static final int View_android_focusable=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#theme}
-     * attribute's value can be found in the {@link #View} array.
+     * <p>This symbol is the offset where the {@link android.R.attr#inflatedId}
+     * attribute's value can be found in the {@link #ViewStubCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name android:theme
+     * @attr name android:inflatedId
      */
-    public static final int View_android_theme=0;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#paddingEnd}
-     * attribute's value can be found in the {@link #View} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:paddingEnd
-     */
-    public static final int View_paddingEnd=2;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#paddingStart}
-     * attribute's value can be found in the {@link #View} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:paddingStart
-     */
-    public static final int View_paddingStart=3;
-    /**
-     * <p>This symbol is the offset where the {@link com.cazzy.cazzysimplenetworking.test.R.attr#theme}
-     * attribute's value can be found in the {@link #View} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.cazzy.cazzysimplenetworking.test:theme
-     */
-    public static final int View_theme=4;
+    public static final int ViewStubCompat_android_inflatedId=2;
   }
 }

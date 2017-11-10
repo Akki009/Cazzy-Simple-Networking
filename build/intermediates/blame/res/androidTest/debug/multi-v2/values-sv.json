@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/silverglobesolutions/SGS Projects/Android/Demo/cazzysimplenetworking/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-sv/values-sv.xml",
+            "outputFile": "/Users/silverglobesolutions/SGS Projects/Android/Demo/cazzysimple_networking/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-sv/values-sv.xml",
             "map": [
                 {
                     "source": "/Users/silverglobesolutions/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/c01473d9a49035609a6736680e890c88/res/values-sv/values-sv.xml",

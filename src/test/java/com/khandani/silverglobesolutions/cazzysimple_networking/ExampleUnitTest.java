@@ -1,4 +1,4 @@
-package com.cazzy.cazzysimplenetworking;
+package com.khandani.silverglobesolutions.cazzysimple_networking;
 
 import org.junit.Test;
 

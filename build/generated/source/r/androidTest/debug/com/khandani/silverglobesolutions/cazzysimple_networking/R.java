@@ -4,7 +4,7 @@
  * gradle plugin from the resource data it found. It
  * should not be modified by hand.
  */
-package com.cazzy.cazzysimplenetworking;
+package com.khandani.silverglobesolutions.cazzysimple_networking;
 
 public final class R {
     public static final class anim {

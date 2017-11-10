@@ -1,4 +1,4 @@
-package com.cazzy.cazzysimplenetworking;
+package com.khandani.silverglobesolutions.cazzysimple_networking;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.cazzy.cazzysimplenetworking.test", appContext.getPackageName());
+        assertEquals("com.khandani.silverglobesolutions.cazzysimple_networking.test", appContext.getPackageName());
     }
 }
