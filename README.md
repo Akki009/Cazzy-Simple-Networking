@@ -19,7 +19,7 @@
   
   //... other dependencies
   
-  compile 'com.github.bhavin250495:Cazzy-Simple-Networking:-SNAPSHOT'
+  compile 'com.github.bhavin250495:Cazzy-Simple-Networking:1.0'
   
   }
   ```
