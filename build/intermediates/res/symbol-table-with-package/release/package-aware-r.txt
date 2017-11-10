@@ -1,0 +1,2 @@
+com.khandani.silverglobesolutions.cazzysimple_networking
+int string app_name 0x7f150001
