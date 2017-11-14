@@ -50,7 +50,7 @@
   
   ```javascript 
   
-     Http_request.sendPostRequest("url", String, new ResponseHandler() {
+     Http_request.sendPostRequest("url", JsonParam.toString(), new ResponseHandler() {
                                 @Override
                                 public void getResponse(ServerResponseWrapper serverResponseWrapper) {
                                     if (serverResponseWrapper.isSuccess){
